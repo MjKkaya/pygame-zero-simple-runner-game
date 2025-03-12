@@ -31,7 +31,7 @@ quit_button = Actor("ui/quit")
 
 def draw_home_screen():
     screen.blit("background", (0, 0))
-    screen.draw.textbox("Runner Game", (WIDTH*0.1, (HEIGHT * 0.2) ,WIDTH*0.8,65), color="white", shadow=(1.0,1.0), scolor="black")
+    screen.draw.textbox("Runner Game", (WIDTH*0.1, (HEIGHT * 0.2) ,WIDTH*0.8,65), color=(79, 132, 219), shadow=(0.75,0.75), scolor=(6, 63, 156))
 
     button_count = 3
     button_gap_horizontal = menu_button_size[0]
